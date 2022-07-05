@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 void createEdge(vector<int> graph[], int a,int b)
 {
@@ -23,9 +22,7 @@ void bfs(vector<int> graph[],vector<bool> &vis,int source)
 				que.push(*it);	
 			}
 		}
-
 	}
-
 }
 int main()
 {
